@@ -178,7 +178,7 @@ class Utena_Player(QWidget):
         self.play_music(current_song = self.current_song_playing)
         
     def play_music(self, current_song):
-        file = f"C:/Users/Riz/Desktop/Yo_python/tung/Music/{current_song.text()}.mp3"
+        file = f".../Music/{current_song.text()}.mp3"
         self.duration_of_file(file)
 
         pygame.mixer.music.load(file)
