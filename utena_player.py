@@ -113,16 +113,16 @@ class Utena_Player(QWidget):
         self.time_label2.setStyleSheet("border: transparent; font-size: 16px")
         self.my_msg.setStyleSheet("border: transparent; font-size: 15px; text-align: left")
         
-        self.playnpause_btn.setStyleSheet("border-image: url(C:/Users/Riz/Downloads/revolutionary girl utena rose.png) 3 10 3 10; border-top: 3px transparent;"
+        self.playnpause_btn.setStyleSheet("border-image: url(.../revolutionary girl utena rose.png) 3 10 3 10; border-top: 3px transparent;"
                                           "border-bottom: 3px transparent; border-right: 10px transparent; border-left: 10px transparent;" \
                                           "font-size: 30px; color: black; text-align: center")
-        self.prev_btn.setStyleSheet("border-image: url(C:/Users/Riz/Downloads/purple_rose.png) 3 10 3 10; border-top: 3px transparent;"
+        self.prev_btn.setStyleSheet("border-image: url(.../purple_rose.png) 3 10 3 10; border-top: 3px transparent;"
                                     "border-bottom: 3px transparent; border-right: 10px transparent; border-left: 10px transparent;" \
                                     "font-size: 30px; color: black;") 
-        self.next_btn.setStyleSheet("border-image: url(C:/Users/Riz/Downloads/purple_rose.png) 3 10 3 10; border-top: 3px transparent;"
+        self.next_btn.setStyleSheet("border-image: url(.../purple_rose.png) 3 10 3 10; border-top: 3px transparent;"
                                     "border-bottom: 3px transparent; border-right: 10px transparent; border-left: 10px transparent;" \
                                     "font-size: 30px; color: black;")                               
-        self.shuffle_btn.setStyleSheet("border-image: url(C:/Users/Riz/Downloads/shuffle.png) 3 10 3 10; border-top: 3px transparent;"
+        self.shuffle_btn.setStyleSheet("border-image: url(.../shuffle.png) 3 10 3 10; border-top: 3px transparent;"
                                     "border-bottom: 3px transparent; border-right: 10px transparent; border-left: 10px transparent;")
         
         
